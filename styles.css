@@ -1,0 +1,17 @@
+nav {
+  width: 40%;
+  margin: 0px auto 40px auto;
+  background-color: #4e443c;
+  position: sticky;
+  top: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  float: left;
+  width: 16%;
+  text-align: center;
+}
