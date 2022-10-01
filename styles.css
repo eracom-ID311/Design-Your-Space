@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&display=swap");
 
+/*Annuler les marges du body de 8px*/
 body {
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -11,6 +11,7 @@ header {
   margin: 0;
   padding: 0;
   background-color: #4e443c;
+  height: 100px;
 }
 
 /* style du texte à puces pour la navbar*/
