@@ -61,6 +61,15 @@ header {
   margin-left: 8px;
 }
 
+.icones_nav {
+  justify-content: right;
+  display: flex;
+}
+
+.Icone_loupe {
+  padding-left: 20px;
+}
+
 h1 {
   font-family: "Work Sans", sans-serif;
   font-size: 48px;
