@@ -1,8 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&display=swap");
 
-* {
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+header {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: #4e443c;
+}
+
+/* style du texte à puces pour la navbar*/
+li,
+a {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+/* permet d'enlever les puces dans la liste*/
+.nav__links {
+  list-style: none;
+}
+
+/* aligner les textes sur une seule ligne les uns à côté des autres*/
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #f8780f;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: bold;
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+  font-size: regular;
 }
