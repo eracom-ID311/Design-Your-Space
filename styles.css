@@ -12,8 +12,6 @@ header {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #4e443c;
-  height: 100px;
 }
 
 /* style du texte à puces pour la navbar*/
@@ -25,11 +23,11 @@ a {
   text-decoration: none;
 }
 
-header {
+.LogosNavRecherche {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  background-color: #4e443c;
 }
 
 .logo {
@@ -77,6 +75,7 @@ header {
 h1 {
   font-family: "Work Sans", sans-serif;
   font-size: 48px;
+  color: white;
 }
 
 h2 {
@@ -89,7 +88,7 @@ p {
   font-size: regular;
 }
 
-/*------------------- Entete --------------------*/
+/*------------------- Réglage Bouton --------------------*/
 
 button {
   padding: 9px 25px;
@@ -102,6 +101,29 @@ button {
   color: white;
 }
 
+/*------------------- Entete --------------------*/
+
+.entete {
+  background-image: url(/images/Entete/entete_img-fond-transparent_OK.jpg);
+  background-size: cover;
+  min-height: 400px;
+}
+
+.BoutonEntete {
+  margin-left: 170px;
+}
+
 button:hover {
   background-color: rgba(248, 120, 15, 0.8);
+}
+
+.TitreEntete {
+  margin-inline-start: 170px;
+  margin-inline-end: 1268px;
+  outline: solid #f80ff4;
+}
+
+/*------------------- Bloc 1 --------------------*/
+
+.bloc1 {
 }
