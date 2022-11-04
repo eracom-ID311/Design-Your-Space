@@ -10,7 +10,6 @@ body {
 
 header {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
 }
 
@@ -30,8 +29,9 @@ a {
   background-color: #4e443c;
 }
 
-.logo {
+.Logo {
   cursor: pointer;
+  margin-left: 300px;
 }
 
 /* permet d'enlever les puces dans la liste*/
@@ -68,6 +68,7 @@ a {
 
 .Icone_loupe {
   padding-left: 20px;
+  margin-right: 300px;
 }
 
 /*------------------- Texte --------------------*/
@@ -109,8 +110,11 @@ button {
   min-height: 400px;
 }
 
+.TROISimages {
+}
+
 .BoutonEntete {
-  margin-left: 170px;
+  margin-left: 300px;
 }
 
 button:hover {
@@ -118,8 +122,8 @@ button:hover {
 }
 
 .TitreEntete {
-  margin-inline-start: 170px;
-  margin-inline-end: 1268px;
+  margin-inline-start: 300px;
+  margin-inline-end: 1100px;
   outline: solid #f80ff4;
 }
 
