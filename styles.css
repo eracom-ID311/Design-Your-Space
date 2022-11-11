@@ -111,10 +111,19 @@ button {
 }
 
 .TROISimages {
+  flex: center;
+  justify-content: baseline;
+}
+
+.TROISimages img {
+  width: 20vw;
+}
+
+.intro {
+  display: flex;
 }
 
 .BoutonEntete {
-  margin-left: 300px;
 }
 
 button:hover {
@@ -122,9 +131,6 @@ button:hover {
 }
 
 .TitreEntete {
-  margin-inline-start: 300px;
-  margin-inline-end: 1100px;
-  outline: solid #f80ff4;
 }
 
 /*------------------- Bloc 1 --------------------*/
