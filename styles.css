@@ -31,7 +31,7 @@ a {
 
 .Logo {
   cursor: pointer;
-  margin-left: 300px;
+  margin-left: 250px;
 }
 
 /* permet d'enlever les puces dans la liste*/
@@ -42,7 +42,7 @@ a {
 /* aligner les textes sur une seule ligne les uns à côté des autres*/
 .nav__links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 15px;
 }
 
 .nav__links a {
@@ -68,7 +68,7 @@ a {
 
 .Icone_loupe {
   padding-left: 20px;
-  margin-right: 300px;
+  margin-right: 250px;
 }
 
 /*------------------- Texte --------------------*/
@@ -82,6 +82,11 @@ h1 {
 h2 {
   font-family: "Work Sans", sans-serif;
   font-size: bold;
+}
+
+h3 {
+  font-family: "Work Sans", sans-serif;
+  font-size: semi-bold;
 }
 
 p {
@@ -110,17 +115,30 @@ button {
   min-height: 400px;
 }
 
+.TitreEntete {
+  margin-top: 300px;
+}
+
 .TROISimages {
-  flex: center;
-  justify-content: baseline;
 }
 
 .TROISimages img {
-  width: 20vw;
+  max-width: 300px;
+  margin-top: 200px;
+}
+
+.TROISimagesCenter img {
+  max-width: 500px;
+  padding-top: 50px;
+  padding-bottom: 250px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .intro {
   display: flex;
+  justify-content: space-between;
+  margin-left: 250px;
 }
 
 .BoutonEntete {
@@ -130,10 +148,25 @@ button:hover {
   background-color: rgba(248, 120, 15, 0.8);
 }
 
-.TitreEntete {
-}
-
 /*------------------- Bloc 1 --------------------*/
 
 .bloc1 {
+}
+
+.Specialites {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+}
+
+.texteSpecialites {
+  text-align: center;
+  line-height: 1.8;
+  margin: 100px;
+}
+
+/*------------------- Bloc 2 --------------------*/
+
+.texteBloc2 {
+  margin-left: 300px;
 }
