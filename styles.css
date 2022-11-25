@@ -16,7 +16,7 @@ header {
 /* style du texte à puces pour la navbar*/
 li,
 a {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   color: white;
   text-decoration: none;
@@ -75,13 +75,13 @@ a {
 
 h1 {
   font-family: "Work Sans", sans-serif;
-  font-size: 48px;
+  font-size: 72px;
   color: white;
 }
 
 h2 {
   font-family: "Work Sans", sans-serif;
-  font-size: bold;
+  font-size: 48px;
 }
 
 h3 {
@@ -97,12 +97,13 @@ p {
 /*------------------- Réglage Bouton --------------------*/
 
 button {
-  padding: 9px 25px;
+  padding: 35px 65px;
   background-color: rgba(248, 120, 15, 1);
   border: none;
   cursor: pointer;
   transition: all 0.2s ease 0s;
   font-family: "Work-Sans", sans-serif;
+  font-size: 22px;
   font-weight: bold;
   color: white;
 }
@@ -112,23 +113,29 @@ button {
 .entete {
   background-image: url(/images/Entete/entete_img-fond-transparent_OK.jpg);
   background-size: cover;
-  min-height: 400px;
+
+  height: 1200px;
 }
 
 .TitreEntete {
   margin-top: 300px;
+  padding-right: 100px;
+  width: 400px;
 }
 
-.TROISimages {
-}
-
-.TROISimages img {
+.TROISimagesRight {
+  padding-top: 200px;
   max-width: 300px;
-  margin-top: 200px;
+}
+
+.TROISimagesLeft {
+  padding-top: 200px;
+  padding-right: 30px;
+  max-width: 300px;
 }
 
 .TROISimagesCenter img {
-  max-width: 500px;
+  max-width: 700px;
   padding-top: 50px;
   padding-bottom: 250px;
   padding-left: 30px;
@@ -151,6 +158,27 @@ button:hover {
 /*------------------- Bloc 1 --------------------*/
 
 .bloc1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.Bloc1groupe {
+  margin: auto;
+  display: block;
+  display: flex;
+}
+
+.BlocServices {
+  margin-left: 100px;
+  margin-right: auto;
+}
+
+.Bloc1Image {
+  padding-top: 50px;
+  margin-left: 200px;
+  max-width: 696px;
 }
 
 .Specialites {
@@ -168,5 +196,60 @@ button:hover {
 /*------------------- Bloc 2 --------------------*/
 
 .texteBloc2 {
-  margin-left: 300px;
+  margin-left: 250px;
+  margin-right: 300px;
 }
+
+.Bloc2BackgroundTransparent {
+  background-image: url(/images/Bloc2/bloc2_img_background-transparent.jpg);
+  background-size: cover;
+}
+
+.ImageCanape {
+  position: relative;
+}
+
+.ElementsEncadre {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.ElementsEncadre h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 72px;
+  color: rgb(247, 120, 13);
+}
+
+.ElementsEncadre h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 28;
+}
+
+.ElementsEncadre p {
+  line-height: 1.8;
+}
+
+.HowWeWork01 {
+  background-color: #ffffff;
+  width: 365px;
+  height: 365px;
+  padding: 50px;
+}
+
+.HowWeWork02 {
+  background-color: #ffffff;
+  width: 365px;
+  height: 365px;
+  padding: 50px;
+}
+
+.HowWeWork03 {
+  background-color: #ffffff;
+  width: 365px;
+  height: 365px;
+  padding: 50px;
+}
+
+/*------------------- Footer --------------------*/
