@@ -111,7 +111,7 @@ button {
 /*------------------- Entete --------------------*/
 
 .entete {
-  background-image: url(/images/Entete/entete_img-fond-transparent_OK.jpg);
+  background-image: url(images/Entete/entete_img-fond-transparent_OK.jpg);
   background-size: cover;
 
   height: 1200px;
